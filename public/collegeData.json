@@ -1,0 +1,138 @@
+[
+    {
+      "college_name": "University of Knowledgeville",
+      "college_image": "https://example.com/images/university_of_knowledgeville.jpg",
+      "admission_date": "2023-09-01",
+      "events": [
+        {
+          "event_name": "Orientation Day",
+          "date": "2023-09-15",
+          "location": "Campus Auditorium"
+        },
+        {
+          "event_name": "Alumni Homecoming",
+          "date": "2024-04-20",
+          "location": "University Grounds"
+        }
+      ],
+      "research_history": [
+        {
+          "project_title": "Advancements in Renewable Energy",
+          "faculty_lead": "Dr. Emily Johnson",
+          "start_date": "2021-05-01",
+          "end_date": "2023-06-30"
+        },
+        {
+          "project_title": "Cancer Immunotherapy Breakthroughs",
+          "faculty_lead": "Dr. Michael Roberts",
+          "start_date": "2022-01-15",
+          "end_date": "2023-12-31"
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Soccer",
+          "coach": "John Smith",
+          "practice_schedule": "Mon, Wed, Fri 4:00 PM - 6:00 PM",
+          "home_ground": "University Stadium"
+        },
+        {
+          "sport_name": "Basketball",
+          "coach": "Sarah Johnson",
+          "practice_schedule": "Tue, Thu 3:00 PM - 5:00 PM",
+          "home_ground": "University Gymnasium"
+        }
+      ]
+    },
+    {
+      "college_name": "Harmony University",
+      "college_image": "https://example.com/images/harmony_university.jpg",
+      "admission_date": "2023-08-15",
+      "events": [
+        {
+          "event_name": "Freshers' Welcome Party",
+          "date": "2023-09-01",
+          "location": "Student Union Hall"
+        },
+        {
+          "event_name": "Annual Cultural Fest",
+          "date": "2024-02-20",
+          "location": "University Grounds"
+        }
+      ],
+      "research_history": [
+        {
+          "project_title": "Climate Change Mitigation Strategies",
+          "faculty_lead": "Dr. Jessica Adams",
+          "start_date": "2022-06-01",
+          "end_date": "2024-05-30"
+        },
+        {
+          "project_title": "Advancements in Artificial Intelligence",
+          "faculty_lead": "Dr. Robert Johnson",
+          "start_date": "2023-01-15",
+          "end_date": "2024-12-31"
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Tennis",
+          "coach": "Mark Anderson",
+          "practice_schedule": "Mon, Wed, Fri 3:00 PM - 5:00 PM",
+          "home_ground": "University Tennis Courts"
+        },
+        {
+          "sport_name": "Swimming",
+          "coach": "Emily Williams",
+          "practice_schedule": "Tue, Thu 4:30 PM - 6:30 PM",
+          "home_ground": "University Swimming Pool"
+        }
+      ]
+    },
+    {
+      "college_name": "Tech Institute of Excellence",
+      "college_image": "https://example.com/images/tech_institute_of_excellence.jpg",
+      "admission_date": "2023-09-01",
+      "events": [
+        {
+          "event_name": "Tech Symposium",
+          "date": "2023-09-30",
+          "location": "Campus Conference Center"
+        },
+        {
+          "event_name": "Hackathon Finals",
+          "date": "2024-03-15",
+          "location": "IT Building"
+        }
+      ],
+      "research_history": [
+        {
+          "project_title": "Advancements in Nanotechnology",
+          "faculty_lead": "Dr. Steven Roberts",
+          "start_date": "2022-07-01",
+          "end_date": "2024-06-30"
+        },
+        {
+          "project_title": "Cybersecurity Threat Analysis",
+          "faculty_lead": "Dr. Amanda Taylor",
+          "start_date": "2023-02-15",
+          "end_date": "2024-12-31"
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Cricket",
+          "coach": "John Miller",
+          "practice_schedule": "Mon, Wed, Fri 5:00 PM - 7:00 PM",
+          "home_ground": "University Cricket Field"
+        },
+        {
+          "sport_name": "Badminton",
+          "coach": "Lisa Adams",
+          "practice_schedule": "Tue, Thu 3:30 PM - 5:30 PM",
+          "home_ground": "University Badminton Courts"
+        }
+      ]
+    }
+  ]
+  
