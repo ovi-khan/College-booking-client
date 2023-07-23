@@ -1,8 +1,11 @@
+import CollegeSection from "../CollegeSection/CollegeSection";
+import PhotoGallery from "../PhotoGallery/PhotoGallery";
 
 const Home = () => {
     return (
         <div>
-            <h2>This is home</h2>  
+            <CollegeSection></CollegeSection>
+            <PhotoGallery></PhotoGallery>
         </div>
     );
 };

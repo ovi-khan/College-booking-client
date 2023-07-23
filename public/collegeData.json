@@ -1,7 +1,8 @@
 [
     {
+      "id": 1,
       "college_name": "University of Knowledgeville",
-      "college_image": "https://example.com/images/university_of_knowledgeville.jpg",
+      "college_image": "https://i.ibb.co/5RKc7TT/img1.jpg",
       "admission_date": "2023-09-01",
       "events": [
         {
@@ -45,8 +46,8 @@
       ]
     },
     {
+      "id": 2,
       "college_name": "Harmony University",
-      "college_image": "https://example.com/images/harmony_university.jpg",
       "admission_date": "2023-08-15",
       "events": [
         {
@@ -90,8 +91,8 @@
       ]
     },
     {
+      "id": 3,
       "college_name": "Tech Institute of Excellence",
-      "college_image": "https://example.com/images/tech_institute_of_excellence.jpg",
       "admission_date": "2023-09-01",
       "events": [
         {
@@ -131,6 +132,142 @@
           "coach": "Lisa Adams",
           "practice_schedule": "Tue, Thu 3:30 PM - 5:30 PM",
           "home_ground": "University Badminton Courts"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "college_name": "Art Academy of Creativity",
+      "admission_date": "2023-10-01",
+      "events": [
+        {
+          "event_name": "Art Exhibition",
+          "date": "2023-10-15",
+          "location": "Gallery Hall"
+        },
+        {
+          "event_name": "Annual Fashion Show",
+          "date": "2024-04-10",
+          "location": "Auditorium"
+        }
+      ],
+      "research_history": [
+        {
+          "project_title": "Contemporary Art Movements",
+          "faculty_lead": "Prof. Sophia Turner",
+          "start_date": "2021-07-01",
+          "end_date": "2023-12-31"
+        },
+        {
+          "project_title": "Digital Art Innovations",
+          "faculty_lead": "Prof. David Brown",
+          "start_date": "2022-03-15",
+          "end_date": "2024-06-30"
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Dance",
+          "coach": "Laura Anderson",
+          "practice_schedule": "Mon, Wed, Fri 5:30 PM - 7:30 PM",
+          "home_ground": "Dance Studio"
+        },
+        {
+          "sport_name": "Paintball",
+          "coach": "Michael Johnson",
+          "practice_schedule": "Tue, Thu 4:00 PM - 6:00 PM",
+          "home_ground": "Paintball Arena"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "college_name": "Medical College of Excellence",
+      "admission_date": "2023-08-30",
+      "events": [
+        {
+          "event_name": "White Coat Ceremony",
+          "date": "2023-09-10",
+          "location": "Medical Auditorium"
+        },
+        {
+          "event_name": "Health Awareness Camp",
+          "date": "2024-03-25",
+          "location": "College Grounds"
+        }
+      ],
+      "research_history": [
+        {
+          "project_title": "Advancements in Medical Imaging",
+          "faculty_lead": "Dr. Elizabeth Wilson",
+          "start_date": "2021-06-01",
+          "end_date": "2023-05-31"
+        },
+        {
+          "project_title": "Cancer Treatment Innovations",
+          "faculty_lead": "Dr. Andrew Carter",
+          "start_date": "2022-02-15",
+          "end_date": "2023-12-31"
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Football",
+          "coach": "Thomas Johnson",
+          "practice_schedule": "Mon, Wed, Fri 5:00 PM - 7:00 PM",
+          "home_ground": "Football Field"
+        },
+        {
+          "sport_name": "Athletics",
+          "coach": "Mary Williams",
+          "practice_schedule": "Tue, Thu 3:30 PM - 5:30 PM",
+          "home_ground": "Athletics Track"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "college_name": "Business School of Success",
+      "college_image": "https://i.ibb.co/sKj7p16/img6.jpg",
+      "admission_date": "2023-09-15",
+      "events": [
+        {
+          "event_name": "Entrepreneurship Summit",
+          "date": "2023-10-10",
+          "location": "Business Auditorium"
+        },
+        {
+          "event_name": "Job Fair",
+          "date": "2024-04-15",
+          "location": "Business School Grounds"
+        }
+      ],
+      "research_history": [
+        {
+          "project_title": "Corporate Social Responsibility",
+          "faculty_lead": "Prof. Robert Turner",
+          "start_date": "2021-07-01",
+          "end_date": "2023-06-30"
+        },
+        {
+          "project_title": "Digital Marketing Strategies",
+          "faculty_lead": "Prof. Emily Roberts",
+          "start_date": "2022-03-15",
+          "end_date": "2024-06-30"
+        }
+      ],
+      "sports": [
+        {
+          "sport_name": "Volleyball",
+          "coach": "John Anderson",
+          "practice_schedule": "Mon, Wed, Fri 5:30 PM - 7:30 PM",
+          "home_ground": "University Volleyball Courts"
+        },
+        {
+          "sport_name": "Chess",
+          "coach": "Sarah Miller",
+          "practice_schedule": "Tue, Thu 4:00 PM - 6:00 PM",
+          "home_ground": "Chess Club Room"
         }
       ]
     }
