@@ -1,4 +1,5 @@
 import { useForm, Controller } from "react-hook-form";
+import Swal from "sweetalert2";
 
 const countryCodes = [
   { value: "+1", label: "+1 (USA)" },
@@ -22,7 +23,30 @@ const Admission = () => {
     const formData = { ...data, phoneNumber };
     // Handle admission form submission with formData
     console.log(formData);
+      // send data to the server
+  fetch('https://college-booking-server-ovi-khan.vercel.app/admission', {
+    method: 'POST',
+    headers: {
+      'content-type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+  .then(res => res.json())
+ .then(data => {
+   console.log(data)
+   if(data.insertedId){
+     Swal.fire({
+       title: 'Success!',
+       text: 'User added successfully',
+       icon: 'success',
+       confirmButtonText: 'Done'
+     })
+   }
+  })
   };
+
+ 
+
 
   return (
     <div className="bg-blue-500 w-[60%] py-10 px-10 mx-0 mx-auto mt-20 rounded-xl">
@@ -165,7 +189,7 @@ const Admission = () => {
           <label htmlFor="image">Image: </label>
           <input
             className="bg-green-700 px-4 py-2 rounded-lg w-full"
-            type="file"
+            type="url"
             id="image"
             {...register("image", { required: true })}
           />

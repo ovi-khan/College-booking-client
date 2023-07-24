@@ -50,8 +50,8 @@ const Navbar = () => {
             {navbar}
           </ul>
         </div>
-        <Link to="/" className="btn btn-ghost normal-case text-xl">
-          College Booking
+        <Link to="/" className="btn btn-ghost normal-case text-2xl">
+          College <span className="text-orange-600">Bookin<span className="text-3xl text-red-500">g</span></span>
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

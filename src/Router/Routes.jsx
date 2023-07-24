@@ -7,6 +7,7 @@ import SignUp from "../Pages/SignUp/SignUp";
 import Login from "../Pages/Login/Login";
 import Admission from "../Pages/Admission/Admission";
 import ErrorPage from "../Pages/ErrorPage/ErrorPage";
+import MyCollege from "../Pages/MyCollege/MyCollege";
 
 
 export const router = createBrowserRouter([
@@ -28,6 +29,10 @@ export const router = createBrowserRouter([
                 element: <Admission></Admission>
             },
             {
+                path: 'mycollege',
+                element: <MyCollege></MyCollege>
+            },
+            {
                 path: 'signup',
                 element: <SignUp></SignUp>
             },
@@ -38,7 +43,7 @@ export const router = createBrowserRouter([
             {
                 path: '/collegedetails/:id',
                 element: <CollegeDetails></CollegeDetails>,
-                loader: ({params}) => fetch(`http://localhost:5000/collegeData/${params.id}`)
+                loader: ({params}) => fetch(`https://college-booking-server-ovi-khan.vercel.app/collegeData/${params.id}`)
             }
         ]
     }
