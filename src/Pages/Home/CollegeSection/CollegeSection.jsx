@@ -7,7 +7,7 @@ const CollegeSection = () => {
     const location = useLocation(); // Get the current location object
 
     useEffect(() => {
-        fetch('collegeData.json')
+        fetch('http://localhost:5000/collegeData')
             .then(res => res.json())
             .then(data => setCollegeData(data));
     }, []); // Fetch data only once on initial mount

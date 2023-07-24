@@ -1,6 +1,5 @@
 [
     {
-      "id": 1,
       "college_name": "University of Knowledgeville",
       "college_image": "https://i.ibb.co/5RKc7TT/img1.jpg",
       "admission_date": "2023-09-01",
@@ -46,7 +45,6 @@
       ]
     },
     {
-      "id": 2,
       "college_name": "Harmony University",
       "admission_date": "2023-08-15",
       "events": [
@@ -91,7 +89,6 @@
       ]
     },
     {
-      "id": 3,
       "college_name": "Tech Institute of Excellence",
       "admission_date": "2023-09-01",
       "events": [
@@ -136,7 +133,6 @@
       ]
     },
     {
-      "id": 4,
       "college_name": "Art Academy of Creativity",
       "admission_date": "2023-10-01",
       "events": [
@@ -181,7 +177,6 @@
       ]
     },
     {
-      "id": 5,
       "college_name": "Medical College of Excellence",
       "admission_date": "2023-08-30",
       "events": [
@@ -226,7 +221,6 @@
       ]
     },
     {
-      "id": 6,
       "college_name": "Business School of Success",
       "college_image": "https://i.ibb.co/sKj7p16/img6.jpg",
       "admission_date": "2023-09-15",

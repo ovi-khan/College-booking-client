@@ -15,6 +15,12 @@ const Navbar = () => {
       <li>
         <Link to='/mycollege'>My College</Link>
       </li>
+      <li>
+        <Link to='/signup'>Sign Up</Link>
+      </li>
+      <li>
+        <Link to='/login'>Login</Link>
+      </li>
     </>
   );
   return (
